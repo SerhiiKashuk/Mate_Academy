@@ -21,13 +21,12 @@ public class Months {
 				}
 		  } else {
 			if (i % 2 == 1) {
-			   months[i] = temp + 1;
+			  months[i] = temp + 1;
 			} else {
 			  months[i] = temp;
 			  }
 			}
 		}
 		System.out.println(Arrays.toString(months));
-		System.out.println(1 % 2);
 	}
 }
